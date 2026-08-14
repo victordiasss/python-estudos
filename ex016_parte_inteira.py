@@ -3,6 +3,6 @@
 
 import math
 
-n = float(input('Digite um número que possa ser arredondado:'))
+n = float(input('Digite um número: '))
 
-print('A porção inteira do número digitado é: {}'.format(math.floor(n)))
+print('A porção inteira do número {} é: {}'.format(n, math.trunc(n)))
